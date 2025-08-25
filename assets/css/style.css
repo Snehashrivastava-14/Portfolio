@@ -74,7 +74,7 @@ a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000 url(\assets\images\bg.jpg) 50% no-repeat;
+    background: #000 url(assets\images\dark-bg.webp) 50% no-repeat;
     background-size: cover;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
@@ -434,7 +434,6 @@ a:hover{
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url(/assets/images/portrait.webp);
 }
 
 @media (max-width: 576px) {
@@ -462,7 +461,7 @@ a:hover{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(/assets/images/portrait.webp);
+    
     }
 
     .hero-content{
@@ -495,7 +494,6 @@ a:hover{
 
 #things-i-love {
     padding: 90px 0px;
-    background-image: url(/assets/images/grid.png);
     background-size: contain;
     min-height: 100vh;
 }
@@ -549,7 +547,7 @@ a:hover{
 --------------------------------------------------------------*/
 #about{
     padding: 100px 0px;
-    background-image: url(/assets/images/grid.png);
+
     background-size: contain;
     min-height: 100vh;
 }
@@ -669,7 +667,6 @@ a:hover{
 
 #tools{
     padding: 100px 0px 80px 0px;
-    background-image: url(/assets/images/grid.png);
     background-size: contain;
     min-height: 100vh;
 }
@@ -714,7 +711,7 @@ a:hover{
 #projects{
     padding: 100px 0px 80px 0px;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+
     background-size: contain;
 }
 
@@ -828,76 +825,7 @@ a:hover{
 # Testimonials Section
 --------------------------------------------------------------*/
 
-#testimonials {
-    padding: 100px 0px;
-    min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
-    background-size: contain;
-}
 
-.testimonial{
-    margin: 0 15px;
-}
-
-.testimonial .description{
-    position: relative;
-    font-size: 13px;
-    line-height: 26px;
-    padding: 30px 20px;
-    border: 1px solid rgba(144, 81, 227, .5);
-    border-left: 3px solid rgba(144, 81, 227, .8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-}
-
-/* Notch Icon for Testimonial Div */
-.testimonial .description:after{
-    position: absolute;
-    bottom: -11px;
-    left: 65px;
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: rgba(144, 81, 227, .8);
-    border-bottom: 1px solid rgba(144, 81, 227, .5);
-    border-left: 1px solid rgba(144, 81, 227, .5);
-    transform: skewY(-45deg);
-    -webkit-transform: skewY(-45deg);  
-}
-
-.testimonial .pic{
-    display: inline-block;
-    overflow: hidden;
-    width: 80px;
-    height: 80px;
-    margin: 20px 30px 10px;
-    border: solid 3px transparent;
-    border-radius: 50%;
-    background-image: var(--primary-gradient-color), radial-gradient(circle at top left, var(--primary-color),var(--secondary-color));;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-.testimonial .pic img{
-    width: 100%;
-    height: auto;
-}
-
-.testimonial .detail{
-    margin: 0 30px;
-}
-
-.testimonial .detail .name{
-    color: var(--primary-color);
-    font-size: 17px;
-    font-weight: bold;
-    margin: 0 0 5px 0;
-}
-
-.testimonial .detail .role{
-    font-size: 14px;
-    color: var(--muted-text);
-}
 
 .owl-nav {
     display: flex;
@@ -917,72 +845,6 @@ a:hover{
 # Blogs Section
 --------------------------------------------------------------*/
 
-#blogs{
-    padding: 100px 0px;
-    min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
-    background-size: contain;
-}
-
-.article-card{
-    background-color: transparent;
-    padding: 10px;
-    border-radius: 24px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
-    -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
-}
-
-.article-card .banner-container{
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.article-card .badge{
-    margin: 10px 10px 0px 0px;
-    font-size: 10px;
-    background: var(--primary-gradient-color);
-}
-
-.article-card .banner{
-    border-radius: inherit;
-}
-
-.article-card .card-title{
-    position: relative;
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.article-card .card-text{
-    font-size: 14px;
-    color: var(--muted-text);
-}
-
-.article-card .read-more{
-    position: relative;
-    color: var(--text-color);
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-.article-card .read-more::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-image: var(--underline-gradient);
-    transition: width 0.35s ease;
-    -webkit-transition: width 0.35s ease;
-}
-
-.article-card .read-more:hover::after {
-    width: 80%;
-}
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -991,7 +853,7 @@ a:hover{
 #contact{
     padding: 100px 0;
     min-height: 100vh;
-    background-image: url(/assets/images/grid.png);
+    
     background-size: contain;
 }
 
