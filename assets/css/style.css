@@ -59,6 +59,11 @@ a{
 a:hover{
     color: var(--secondary-color);
 }
+.hero-portrait {
+    border-radius: 0 !important;
+    background: none !important;
+}
+
 
 /* Dark Mode */
 [data-bs-theme="dark"] {
