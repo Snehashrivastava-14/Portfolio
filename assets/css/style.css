@@ -34,16 +34,6 @@ body{
 
 
 
-.hero {
-  position: relative;
-  height: 100vh; /* full screen */
-  padding: 50px;
-  background: #000 url(/assets/images/dark-bg.webp) 50% no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 /* Profile image for large screens */
 .profile-pic {
