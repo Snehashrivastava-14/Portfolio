@@ -35,31 +35,6 @@ body{
 
 
 
-/* Profile image for large screens */
-.profile-pic {
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  transform: translateY(-50%);
-  width: 400px;
-  height: 450px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #fff;
-}
-
-/* ✅ Responsive adjustments for tablets & mobiles */
-@media (max-width: 768px) {
-  .profile-pic {
-    position: static;       /* no absolute */
-    transform: none;
-    margin: 20px auto 0;    /* center it */
-    display: block;
-    width: 220px;           /* smaller size */
-    height: 0px;
-  }
-}
-
 
 a{
     color: var(--primary-color);
