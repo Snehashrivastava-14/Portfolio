@@ -32,21 +32,23 @@ body{
     font-weight: 300;
 }
 
-
-
 .hero {
   position: relative;
-  height: 100vh; /* full screen */
+  height: 100vh; /* full screen section */
   padding: 50px;
-  background: #000 url(/assets/images/dark-bg.webp) 50% no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-/* Profile image for large screens */
-
+/* .profile-pic {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+} */
 
 
 a{
