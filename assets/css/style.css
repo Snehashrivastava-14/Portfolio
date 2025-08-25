@@ -32,22 +32,42 @@ body{
     font-weight: 300;
 }
 
+
+
 .hero {
   position: relative;
-  height: 100vh; /* full screen section */
+  height: 100vh; /* full screen */
   padding: 50px;
+  background: #000 url(/assets/images/dark-bg.webp) 50% no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+/* Profile image for large screens */
 .profile-pic {
   position: absolute;
   top: 50%;
-  right: 20px;
+  right: 30px;
   transform: translateY(-50%);
   width: 400px;
   height: 450px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
+}
+
+/* ✅ Responsive adjustments for tablets & mobiles */
+@media (max-width: 768px) {
+  .profile-pic {
+    position: static;       /* no absolute */
+    transform: none;
+    margin: 20px auto 0;    /* center it */
+    display: block;
+    width: 220px;           /* smaller size */
+    height: 250px;
+  }
 }
 
 
