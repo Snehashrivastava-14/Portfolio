@@ -66,7 +66,7 @@ body{
     margin: 20px auto 0;    /* center it */
     display: block;
     width: 220px;           /* smaller size */
-    height: 250px;
+    height: 0px;
   }
 }
 
